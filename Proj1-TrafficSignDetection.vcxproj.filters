@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CLI\CLI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CLI\ConsoleInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageAnalysis\ImageAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hog_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ml_exp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CLI\ConsoleInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageAnalysis\ImageAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hog_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ml_train.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CLI\CLI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="imgs\digits\0.psd" />
+    <None Include="imgs\digits\1.psd" />
+    <None Include="imgs\digits\2.psd" />
+    <None Include="imgs\digits\3.psd" />
+    <None Include="imgs\digits\4.psd" />
+    <None Include="imgs\digits\5.psd" />
+    <None Include="imgs\digits\6.psd" />
+    <None Include="imgs\digits\7.psd" />
+    <None Include="imgs\digits\8.psd" />
+    <None Include="imgs\digits\9.psd" />
+    <None Include="report\Proj1-TrafficSignDetection-CarlosCosta.docx" />
+    <None Include="report\Proj1-TrafficSignDetection-CarlosCosta.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imgs\hsv\hsv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.0.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v0.9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\hsv\hsv360_v1.0.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\digits\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_10.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_11.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_12.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_13.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_14.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_15.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_16.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_18.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_19.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_20.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_21.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_22.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_23.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_24.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_28.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_29.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_30.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_31.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_32.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_33.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_34.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="imgs\signs\speed_limit_sign_9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="docs\Image analysis notes.txt" />
+    <Text Include="docs\Visual Studio configuration for OpenCV 2.4.6.txt" />
+  </ItemGroup>
+</Project>

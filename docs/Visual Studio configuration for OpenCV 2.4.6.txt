@@ -1,0 +1,117 @@
+#######################################################################
+############################  OpenCV setup  ###########################
+#######################################################################
+
+http://opencv.org/downloads.html
+Extract opencv to c:\
+
++ Add system environment variable
+OPENCV_DIR
+C:\opencv\build\
+
++ Add to path
+C:\opencv\build\x86\vc11\bin;
+
+
+
+#######################################################################
+########################  OpenCV in Visual Studio  ####################
+#######################################################################
+
++ Project properties -> C/C++ -> General -> Aditional Include Directories
+$(OPENCV_DIR)\include
+
++ Project properties -> Linker -> General -> Aditional Library Directories
+$(OPENCV_DIR)\x86\vc11\lib
+
+
+Project properties -> Linker -> Input -> Aditional Dependencies
+Debug:
+opencv_calib3d248d.lib
+opencv_contrib248d.lib
+opencv_core248d.lib
+opencv_features2d248d.lib
+opencv_flann248d.lib
+opencv_gpu248d.lib
+opencv_haartraining_engined.lib
+opencv_highgui248d.lib
+opencv_imgproc248d.lib
+opencv_legacy248d.lib
+opencv_ml248d.lib
+opencv_nonfree248d.lib
+opencv_objdetect248d.lib
+opencv_photo248d.lib
+opencv_stitching248d.lib
+opencv_superres248d.lib
+opencv_ts248d.lib
+opencv_video248d.lib
+opencv_videostab248d.lib
+
+Release:
+opencv_calib3d248.lib
+opencv_contrib248.lib
+opencv_core248.lib
+opencv_features2d248.lib
+opencv_flann248.lib
+opencv_gpu248.lib
+opencv_haartraining_engine.lib
+opencv_highgui248.lib
+opencv_imgproc248.lib
+opencv_legacy248.lib
+opencv_ml248.lib
+opencv_nonfree248.lib
+opencv_objdetect248.lib
+opencv_photo248.lib
+opencv_stitching248.lib
+opencv_superres248.lib
+opencv_ts248.lib
+opencv_video248.lib
+opencv_videostab248.lib
+
+
+
+#######################################################################
+######################### Tesseract OCR setup  ########################
+#######################################################################
+
+https://code.google.com/p/tesseract-ocr/downloads/list
+	tesseract-ocr-setup-3.02.02.exe
+	tesseract-3.02.02-win32-lib-include-dirs.zip
+
+http://tesseract-ocr.googlecode.com/svn/trunk/vs2008/doc/setup.html
+
++ Install Tesseract
++ Copy dev files to install dir
+
++ Add to path
+C:\Program Files (x86)\Tesseract-OCR\lib
+
+
+
+#######################################################################
+######################  Tesseract in Visual Studio  ##################
+#######################################################################
+
++ Project properties -> C/C++ -> General -> Aditional Include Directories
+C:\Program Files (x86)\Tesseract-OCR\include
+
++ Project properties -> Linker -> General -> Aditional Library Directories
+C:\Program Files (x86)\Tesseract-OCR\lib
+
++ Project properties -> Linker -> Input -> Aditional Dependencies
+Debug:
+libtesseract302d.lib
+liblept168d.lib
+
+Release:
+libtesseract302.lib
+liblept168.lib
+
+
++ Project properties -> C/C++ -> General -> Preprocessor -> Preprocessor definitions
+
+_CRT_SECURE_NO_WARNINGS
+USE_STD_NAMESPACE
+TESSDLL_IMPORTS
+CCUTIL_IMPORTS
+LIBLEPT_IMPORTS
